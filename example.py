@@ -18,8 +18,8 @@ def my_map_function(id, x):
 
 
 if __name__ == "__main__":
-    iterdata = [1, 2, 3, 4]
+    iterdata = [10, 11, 12, 13]
     fexec = lithops.FunctionExecutor()
     fexec.map(my_map_function, range(2))
-    fexec.map(my_map_function, range(6))
+    fexec.map(my_map_function, iterdata)
     print(fexec.get_result())
