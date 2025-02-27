@@ -17,5 +17,7 @@ dependencies:
   - ipykernel
   - ipywidgets
   - git
+  - dask
+  - dask-cloudprovider
   - pip:
     - $LITHOPS
