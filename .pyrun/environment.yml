@@ -16,7 +16,6 @@ dependencies:
   - python=3.12
   - ipykernel
   - ipywidgets
-  - awslambdaric
   - git
   - pip:
     - $LITHOPS
