@@ -21,7 +21,3 @@ dependencies:
   # Dask packages
   - dask
   - dask-cloudprovider
-
-  # Lithops package
-  - pip:
-    - $LITHOPS
