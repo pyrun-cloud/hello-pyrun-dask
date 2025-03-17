@@ -16,15 +16,13 @@ def main():
 
     # Start an EC2 Dask cluster
     """cluster = EC2Cluster(
-        docker_image="daskdev/dask:2025.2.0-py3.12",
         n_workers=2,
-        security=False,
+        security=False,  // Avoid encountering this error: https://github.com/dask/dask-cloudprovider/issues/249
         region="us-east-1",
     )"""
 
     # Start a Fragate Dask cluster
     """cluster = FargateCluster(
-        image="daskdev/dask:2025.2.0-py3.12",
         n_workers=2,
         region_name="us-east-1",
     )"""
