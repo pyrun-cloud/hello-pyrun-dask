@@ -17,7 +17,7 @@ def main():
     # Start an EC2 Dask cluster
     """cluster = EC2Cluster(
         n_workers=2,
-        security=False,  // Avoid encountering this error: https://github.com/dask/dask-cloudprovider/issues/249
+        security=False,  # Avoid encountering this error: https://github.com/dask/dask-cloudprovider/issues/249
         region="us-east-1",
     )"""
 
