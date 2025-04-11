@@ -21,7 +21,7 @@ def main():
         region="us-east-1",
     )"""
 
-    # Start a Fragate Dask cluster
+    # Start a Fargate Dask cluster
     """cluster = FargateCluster(
         n_workers=2,
         region_name="us-east-1",
